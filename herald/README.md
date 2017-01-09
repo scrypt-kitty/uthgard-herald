@@ -4,11 +4,22 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 ## Dependencies Setup
 
-Install Node and NPM.
-Download the code.
-Change directory to /herald/
-Run npm install
-Run ng serve
+1. Install Node and NPM.
+2. Download the code.
+3. Change directory to /herald/
+4. Run npm install
+5. Run ng serve
+
+## Dockerfile
+
+# To use the Docker image:
+
+docker run -P -d gp2015/uthgard-herald cd /opt/uthgard-herald/herald | ng serve
+
+# To build a new Docker image from an updated Dockerfile:
+
+docker build -t <username>/uthgard-herald .
+
 
 ## URL routes
 * Character profiles: `/character/<name>`
