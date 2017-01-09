@@ -10,13 +10,14 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 4. Run npm install
 5. Run ng serve
 
+
 ## Dockerfile
 
-# To use the Docker image:
+### To use the Docker image:
 
 docker run -P -d gp2015/uthgard-herald cd /opt/uthgard-herald/herald | ng serve
 
-# To build a new Docker image from an updated Dockerfile:
+### To build a new Docker image from an updated Dockerfile:
 
 docker build -t <username>/uthgard-herald .
 
